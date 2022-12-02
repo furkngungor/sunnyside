@@ -500,6 +500,7 @@ font-family: 'Fraunces', serif; */
   .Content .container {
     padding-left: 0;
     padding-right: 0;
+    padding-bottom: 50px;
   }
 
   .Content .container p {
