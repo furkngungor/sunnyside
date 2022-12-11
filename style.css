@@ -35,6 +35,10 @@ font-family: 'Fraunces', serif; */
 
 .Header {
   height: 75px;
+  width: 100%;
+  position: fixed;
+  background-color: #3ebfff;
+  z-index: 1;
 }
 
 .Header .container {
@@ -411,7 +415,11 @@ font-family: 'Fraunces', serif; */
   }
 
   /* Header */
-
+  
+  .Header {
+    position: static;
+  }
+  
   #hamburger-button {
     display: none;
   }
